@@ -8,6 +8,8 @@ async function setup() {
     // Create gain node and connect it to audio output
     const outputNode = context.createGain();
     outputNode.connect(context.destination);
+
+    
     
     // Fetch the exported patcher
     let response, patcher;
